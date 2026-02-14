@@ -1,0 +1,15 @@
+{
+  "name": "lab3-incident-tracker",
+  "private": true,
+  "workspaces": [
+    "backend",
+    "frontend"
+  ],
+  "scripts": {
+    "dev": "concurrently \"npm:dev --workspace backend\" \"npm:dev --workspace frontend\"",
+    "install:all": "npm install --workspace backend && npm install --workspace frontend"
+  },
+  "devDependencies": {
+    "concurrently": "^9.2.1"
+  }
+}
