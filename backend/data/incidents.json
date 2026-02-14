@@ -1,3 +1,31 @@
 {
-  "incidents": []
+  "incidents": [
+    {
+      "id": "a0524242-a0c9-4586-aeee-e0aa86887512",
+      "title": "incident 1",
+      "description": "Users are unable to connect to the corporate VPN from remote locations.",
+      "category": "NETWORK",
+      "severity": "HIGH",
+      "status": "OPEN",
+      "reportedAt": "2026-02-14T02:39:00.306Z"
+    },
+    {
+      "id": "10fbedda-5f61-45aa-8c38-56e14aaa3c53",
+      "title": "INCIDENT 1",
+      "description": "Users are unable to connect to the corporate VPN from remote locations.",
+      "category": "NETWORK",
+      "severity": "HIGH",
+      "status": "OPEN",
+      "reportedAt": "2026-02-14T02:40:37.007Z"
+    },
+    {
+      "id": "260bcb78-7ce5-4387-ac18-707e83538889",
+      "title": "INCIDENT 1",
+      "description": "Users are unable to connect to the corporate VPN from remote locations.",
+      "category": "NETWORK",
+      "severity": "LOW",
+      "status": "OPEN",
+      "reportedAt": "2026-02-14T02:41:57.241Z"
+    }
+  ]
 }
